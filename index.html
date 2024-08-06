@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="nav-list">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <h1>Welcome to Our Landing Page</h1>
+        <p>Your success starts here.</p>
+        <a href="#about" class="btn">Learn More</a>
+    </section>
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are dedicated to providing the best service.</p>
+    </section>
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-item">
+            <img src="service1.jpg" alt="Service 1 Image">
+            <h3>Service 1: Web Development</h3>
+            <p>Our web development service includes building responsive and user-friendly websites tailored to your business needs. We use the latest technologies and best practices to ensure your site is fast, secure, and scalable.</p>
+        </div>
+        <div class="service-item">
+            <img src="service2.jpg" alt="Service 2 Image">
+            <h3>Service 2: Graphic Design</h3>
+            <p>Our graphic design team creates visually stunning graphics that communicate your brand message effectively. From logos to brochures, we handle all your design needs with creativity and precision.</p>
+        </div>
+        <div class="service-item">
+            <img src="service3.webp" alt="Service 3 Image">
+            <h3>Service 3: Digital Marketing</h3>
+            <p>We offer comprehensive digital marketing services to help you reach your target audience and grow your online presence. Our services include SEO, social media marketing, PPC, and content marketing.</p>
+        </div>
+    </section>
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form id="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2024 Your Company. All rights reserved.</p>
+    </footer>
+</body>
+</html>
